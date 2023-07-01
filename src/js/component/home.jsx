@@ -32,7 +32,7 @@ const Home = () => {
 					</li>
 				))}
 			</ul>
-			<div>23 Tasks</div>
+			<div>{todos.length} Tasks</div>
 		</div>
 	)
 }
